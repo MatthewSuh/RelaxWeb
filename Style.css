@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -13,7 +14,6 @@ h1 {
     position: relative;
     transform: translate(-50%, 0%);
     left: 50%;
-    
     height: 100px;
     width: 300px;
     background: #000000;
@@ -22,25 +22,29 @@ h1 {
     font-size: 50px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0px 10px 15px 5px rgba(0,0,0, 0.6);
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.6);
     margin: 0;
 }
 
-
-.simg1, .simg2, .simg3, .simg4{
+.simg1,
+.simg2,
+.simg3,
+.simg4,
+.rimg1,
+.rimg2,
+.rimg3,
+.rimg4 {
     position: relative;
     opacity: 0.7;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     background-attachment: fixed;
 }
 
 .simg1 {
     background-image: url('../RelaxWeb/succulents/3succulent.jpg');
     min-height: 100%;
-
 }
 
 .simg2 {
@@ -58,38 +62,59 @@ h1 {
     min-height: 500px;
 }
 
-.section{
+.rimg1 {
+    background-image: url('../RelaxWeb/rain/windowrain.jpg');
+    min-height: 500px;
+}
+
+.rimg2 {
+    background-image: url('../RelaxWeb/rain/web.jpg');
+    min-height: 500px;
+}
+
+.rimg3 {
+    background-image: url('../RelaxWeb/rain/flowerrain.jpg');
+    min-height: 500px;
+}
+
+.rimg4 {
+    background-image: url('../RelaxWeb/rain/grassrain.jpg');
+    min-height: 500px;
+}
+
+.section {
     text-align: center;
     padding: 50px 80px;
 }
 
-.section-dark{
+.section-dark {
     background: linear-gradient(to bottom, #f0e5f9 0%, #FECFD2 100%);
     background-repeat: no-repeat;
-    color:rgb(102, 102, 119)
+    color: rgb(102, 102, 119)
 }
 
-.ptext{
+.ptext {
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
-    color:#000;
+    color: #000;
     font-size: 30px;
     letter-spacing: 8px;
     font-family: 'Handlee', cursive;
-    
 }
 
-.ptext .border{
-    background-color:rgba(17, 17, 17, 0.664);
-    color:#fff;
-    padding:20px;
+.ptext .border {
+    background-color: rgba(17, 17, 17, 0.664);
+    color: #fff;
+    padding: 20px;
     border-radius: 20px;
 }
 
-@media(max-width:568px){
-    .pimg1, .pimg2, .pimg3{
+@media(max-width:568px) {
+    .pimg1,
+    .pimg2,
+    .pimg3 {
         background-attachment: scroll;
     }
 }
