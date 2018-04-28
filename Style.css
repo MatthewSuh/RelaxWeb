@@ -123,8 +123,14 @@ audio {
     padding: 50px 80px;
 }
 
-.section-dark {
+.section-succulent {
     background: linear-gradient(to bottom, #f0e5f9 0%, #FECFD2 100%);
+    background-repeat: no-repeat;
+    color: rgb(102, 102, 119)
+}
+
+.section-rain {
+    background: linear-gradient(to bottom, #c8e7f5 0%, rgb(162, 190, 243) 100%);
     background-repeat: no-repeat;
     color: rgb(102, 102, 119)
 }
