@@ -9,31 +9,36 @@
 
 <body>
     <div>
-        <audio controls>
+        <audio>
             <source src="relaxing music.mp3" type="audio/mpeg"> Your browser does not support the audio element.
         </audio>
     </div>
 
-    <div id="buttonsPanel">
-        <button class= "scrollButton" onclick="succulentFunction()" id="succulent" title="Go to succulent section">E</button>
-        <button class= "scrollButton" onclick="rainFunction()"      id="rain" title="Go to rain section">S</button>
+    <div id="buttons">
+        <button class="scrollButton" onclick="succulentFunction()" id="succulent" title="Go to succulent section">E</button>
+        <button class="scrollButton" onclick="rainFunction()" id="rain" title="Go to rain section">S</button>
     </div>
 
     <!-- <a href="#rainSection">Button</a> -->
 
     <script>
-            document.getElementById("succulent").style.display = "block";
-            // When the user clicks on the button, scroll to the rain page of the document
-            function succulentFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
+        document.getElementById("succulent").style.display = "block";
 
-            // When the user clicks on the button, scroll to the rain page of the document
-            function rainFunction() {
-                document.getElementById('rainSection').scrollIntoView();
-            }
-        </script>
+        // When the user clicks on the button, scroll to the top of the document
+        function succulentFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // When the user clicks on the button, scroll to the rain page of the document
+        function rainFunction() {
+            // document.body.scrollTop = 1000;
+            // document.documentElement.scrollTop = 1000;
+            document.getElementById('rainSection').scrollIntoView();
+        }
+    </script>
+
+
 
     <div class="simg1">
         <div class="ptext">

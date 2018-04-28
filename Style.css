@@ -61,43 +61,43 @@ audio {
 }
 
 .simg1 {
-    background-image: url('../RelaxWeb/succulents/3succulent.jpg');
+    background-image: url('../RelaxWeb-master/succulents/3succulent.jpg');
     min-height: 100%;
 }
 
 .simg2 {
-    background-image: url('../RelaxWeb/succulents/floral.jpg');
+    background-image: url('../RelaxWeb-master/succulents/floral.jpg');
     min-height: 500px;
 }
 
 .simg3 {
-    background-image: url('../RelaxWeb/succulents/succulent1.jpg');
+    background-image: url('../RelaxWeb-master/succulents/succulent1.jpg');
     min-height: 500px;
 }
 
 .simg4 {
-    background-image: url('../RelaxWeb/succulents/colorful.jpg');
+    background-image: url('../RelaxWeb-master/succulents/colorful.jpg');
     min-height: 500px;
 }
 
 .rimg1 {
-    background-image: url('../RelaxWeb/rain/windowrain.jpg');
-    min-height: 500px;
+    background-image: url('../RelaxWeb-master/rain/windowrain.jpg');
+    min-height: 100%;
 }
 
 .rimg2 {
-    background-image: url('../RelaxWeb/rain/web.jpg');
+    background-image: url('../RelaxWeb-master/rain/web.jpg');
     min-height: 500px;
 }
 
 .rimg3 {
-    background-image: url('../RelaxWeb/rain/flowerrain.jpg');
+    background-image: url('../RelaxWeb-master/rain/flowerrain.jpg');
     min-height: 500px;
 }
 
 .rimg4 {
-    background-image: url('../RelaxWeb/rain/grassrain.jpg');
-    min-height: 100%;
+    background-image: url('../RelaxWeb-master/rain/grassrain.jpg');
+    min-height: 500px;
 }
 
 .section {
