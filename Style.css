@@ -31,16 +31,16 @@ h1 {
 }
 
 .pimg1 {
-    background-image: url('../succulent/3succulent.jpg');
+    background-image: url('../succulents/3succulent.jpg');
     min-height: 100%;
 }
 
 .pimg2 {
-    background-image: url('../succulent/succulent1.jpg');
-    min-height: 500px;
+    background-image: url('../succulents/succulent1.jpg');
+    min-height: 400px;
 }
 
 .pimg3 {
-    background-image: url('../succulent/floral.jpg');
-    min-height: 500px;
+    background-image: url('../succulents/floral.jpg');
+    min-height: 400px;
 }
