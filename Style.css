@@ -79,7 +79,7 @@ h1 {
 
 .rimg4 {
     background-image: url('../RelaxWeb/rain/grassrain.jpg');
-    min-height: 500px;
+    min-height: 100%;
 }
 
 .section {
