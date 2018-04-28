@@ -17,9 +17,8 @@ body {
     display: none;
     position: fixed;
     top: 20px;
-    /* right: 50%;
-    transform: translate(50%, 0%);
-    z-index: 99; */
+
+    z-index: 99; 
     font-size: 18px;
     border: none;
     outline: none;
@@ -33,7 +32,8 @@ body {
 
 #buttons {
     position: fixed;
-    top: 20px;
+    right: 50%;
+    transform: translate(50%, 0%);
     width: 100px;
     height: 100px;
     display: flex;
