@@ -10,24 +10,52 @@ body {
     line-height: 1.8em;
 }
 
-.button:hover {
-    background-color:rgba(17, 17, 17, 0.664);
-    color:#fff;
-    padding:20px;
-    border-radius: 100%;
+.scrollButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: none;
+    position: fixed;
+    top: 20px;
+    /* right: 50%;
+    transform: translate(50%, 0%);
+    z-index: 99; */
+    font-size: 18px;
     border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    outline: none;
+    background-color: rgba(17, 17, 17, 0.664);
+    color: white;
     cursor: pointer;
+    padding: 15px;
 
-    position: absolute;
-    transform: translate(-50%, 0%);
-    left: 50%;
+    transition-duration: 0.4s;
+}
+
+#buttons {
+    position: fixed;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    background-color: red;
+    margin: 0 auto;
+}
+
+#succulent {
+
+}
+
+#rain {
+
+}
+
+/* .Sbutton {
+    background-color: rgba(17, 17, 17, 0.664);
+    
+} */
+  
+.scrollButton:hover {
+    opacity: .5;
 }
 
 .simg1,
