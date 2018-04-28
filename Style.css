@@ -58,6 +58,10 @@ body {
     opacity: .5;
 }
 
+audio { 
+    display:none;
+ }
+
 .simg1,
 .simg2,
 .simg3,
