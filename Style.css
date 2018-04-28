@@ -14,10 +14,10 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    display: none;
+
     position: fixed;
     top: 20px;
-
+    left: 20px;
     z-index: 99; 
     font-size: 18px;
     border: none;
@@ -28,32 +28,14 @@ body {
     padding: 15px;
 
     transition-duration: 0.4s;
-}
-
-#buttons {
-    position: fixed;
-    right: 50%;
-    transform: translate(50%, 0%);
-    width: 100px;
-    height: 100px;
-    display: flex;
-    background-color: red;
-    margin: 0 auto;
-}
-
-#succulent {
 
 }
 
 #rain {
-
+    top: 80px;
 }
 
-/* .Sbutton {
-    background-color: rgba(17, 17, 17, 0.664);
-    
-} */
-  
+
 .scrollButton:hover {
     opacity: .5;
 }
