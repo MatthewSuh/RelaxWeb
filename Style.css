@@ -82,7 +82,7 @@ audio {
 
 .rimg1 {
     background-image: url('../RelaxWeb/rain/windowrain.jpg');
-    min-height: 500px;
+    min-height: 100%;
 }
 
 .rimg2 {
@@ -97,7 +97,7 @@ audio {
 
 .rimg4 {
     background-image: url('../RelaxWeb/rain/grassrain.jpg');
-    min-height: 100%;
+    min-height: 500px;
 }
 
 .section {
@@ -106,13 +106,17 @@ audio {
 }
 
 .section-succulent {
-    background: linear-gradient(to bottom, #f0e5f9 0%, #FECFD2 100%);
+    background: linear-gradient(to bottom, #ecd4ff 0%, rgb(255, 231, 232) 100%);
     background-repeat: no-repeat;
     color: rgb(102, 102, 119)
 }
 
+.section-divider {
+    background: rgb(90, 90, 90)
+}
+
 .section-rain {
-    background: linear-gradient(to bottom, #c8e7f5 0%, rgb(162, 190, 243) 100%);
+    background-image: linear-gradient(to top, #ace0f9 0%, #fff1eb 100%);
     background-repeat: no-repeat;
     color: rgb(102, 102, 119)
 }
