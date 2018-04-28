@@ -27,7 +27,7 @@ h1 {
 }
 
 
-.pimg1, .pimg2, .pimg3{
+.simg1, .simg2, .simg3, .simg4{
     position: relative;
     opacity: 0.7;
     background-position: center;
@@ -37,19 +37,24 @@ h1 {
     background-attachment: fixed;
 }
 
-.pimg1 {
+.simg1 {
     background-image: url('../RelaxWeb/succulents/3succulent.jpg');
     min-height: 100%;
 
 }
 
-.pimg2 {
+.simg2 {
     background-image: url('../RelaxWeb/succulents/floral.jpg');
     min-height: 500px;
 }
 
-.pimg3 {
+.simg3 {
     background-image: url('../RelaxWeb/succulents/succulent1.jpg');
+    min-height: 500px;
+}
+
+.simg4 {
+    background-image: url('../RelaxWeb/succulents/colorful.jpg');
     min-height: 500px;
 }
 
