@@ -59,7 +59,8 @@ h1 {
 }
 
 .section-dark{
-    background-color: #b3501248;
+    background: linear-gradient(to bottom, #f0e5f9 0%, #FECFD2 100%);
+    background-repeat: no-repeat;
     color:rgb(102, 102, 119)
 }
 
